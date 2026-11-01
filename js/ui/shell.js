@@ -27,7 +27,7 @@ export function shellHTML(screens) {
   return `<a class="skip-link" href="#main" data-action="skip">Skip to content</a>
 <header class="topbar">
   <div class="tb-brand">
-    <a class="brand" href="#/overview"><span class="brand-name">Anvil Ledger</span><span class="brand-asof">Data as of ${AS_OF.label}</span></a>
+    <a class="brand" href="#/overview"><span class="brand-name">Anvil Decision Dashboard</span></a>
   </div>
   <div class="tb-mid">
     <button type="button" class="scenario-chip" data-action="scenario" aria-haspopup="dialog" aria-expanded="false" aria-controls="scenario-pop">${icon('sliders-horizontal', { size: 18 })}<span class="chip-text" data-region="shell:chip"></span>${icon('chevron-down', { size: 16, cls: 'chev' })}</button>
