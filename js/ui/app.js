@@ -137,7 +137,7 @@ function mount(screen, userNav) {
   }
   const more = $('[data-more]');
   if (more) more.classList.toggle('active', !['overview', 'diagnosis', 'plan', 'plant-x'].includes(screen.id));
-  document.title = `${screen.title} · Anvil Board Room`;
+  document.title = `${screen.title} · Anvil Ledger`;
   closeOverlay('more', false);
   closeOverlay('nav', false);
   if (userNav) {
