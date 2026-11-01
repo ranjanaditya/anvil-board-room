@@ -2,7 +2,7 @@
 // (sidebar, icon rail, phone tab bar), and overlays (scenario popover, source drawer,
 // command palette, sheets, tooltip, toast).
 
-import { AS_OF, SOURCES } from '../data.js';
+import { SOURCES } from '../data.js';
 import { pct } from '../format.js';
 import { esc, count, $ } from './dom.js';
 import { icon } from './icons.js';
@@ -12,7 +12,7 @@ import { resolveItem } from './registry.js';
 import { scenarioControls, walk, meterLabel } from './scenario.js';
 import { scenarioLabel, prefs } from '../state.js';
 
-export const FOOTER = `Confidential · Anvil Nutrition board and leadership · Data as of ${AS_OF.label} · Sources: data-room files A to L`;
+export const FOOTER = 'Confidential · Anvil Nutrition board and leadership';
 
 export function shellHTML(screens) {
   const groups = [];
