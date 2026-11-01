@@ -2,6 +2,8 @@
 
 An internal web app for Anvil Nutrition's board and leadership: why contribution margin 3 (CM3) collapsed from FY24 to FY26, and the plan that brings it back to break-even in Q4 FY27 and positive in FY28.
 
+Live at https://anvil-board-room.vercel.app. Every push to `main` deploys there automatically.
+
 It is a static site: `index.html`, one stylesheet and plain JavaScript modules. There is no build step, no server code, no framework and no third-party script. The only runtime request outside the site is Google Fonts (Inter and Newsreader), with system fallbacks.
 
 ## Run it locally
